@@ -7,7 +7,9 @@
    "theme_version": null,
    "minimum_discourse_version": null,
    "maximum_discourse_version": null,
-   "assets": {
-   }, 
+  "assets": {
+    "javascripts/discourse/initializers/add-button.js.es6": "javascripts/discourse/initializers/add-button.js.es6",
+    "connectors/after-create-topic-button/add-button.hbs": "connectors/after-create-topic-button/add-button.hbs"
+  },
    "learn_more": null
 }
