@@ -1,8 +1,8 @@
 {
-   "name" : "Alternative New Topic Button",
+   "name": "Alternative New Topic Button",
    "component": true,
    "authors": "nathan-nz",
-   "about_url" : "https://github.com/nathan-nz/alt-new-topic-button/blob/main/README.md",
+   "about_url": "https://github.com/nathan-nz/alt-new-topic-button/blob/main/README.md",
    "license_url": "https://github.com/nathan-nz/alt-new-topic-button/blob/main/LICENSE",
    "theme_version": null,
    "minimum_discourse_version": null,
