@@ -3,9 +3,9 @@ import { apiInitializer } from "discourse/lib/api";
 import AddButton from "../components/add-button";
 
 export default apiInitializer("0.8", api => {
-  api.decorateWidget('after-create-topic-button:after', helper => {
-    if (helper.attrs.showAddButton) {
-      return helper.attach('add-button');
+  api.registerConnectorClass('after-create-topic-button', 'add-button', {
+    setupComponent(args, component) {
+      component.set('showAddButton', true);
     }
   });
 });
