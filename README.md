@@ -1,0 +1,2 @@
+# secure-topic-button
+Adds an additional New Topic Button which directs to an alternative target for topic creation
