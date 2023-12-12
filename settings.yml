@@ -1,0 +1,4 @@
+# settings.yml
+show_add_button:
+  default: true
+  type: bool
