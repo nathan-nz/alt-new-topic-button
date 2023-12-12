@@ -1,5 +1,7 @@
 {
    "name" : "Alternative Topic Button",
-   "about_url" : "",
-   "license_url": ""
+   "component": true,
+   "authors": nathan-nz,
+   "about_url" : "https://github.com/nathan-nz/alt-new-topic-button/blob/main/README.md",
+   "license_url": "https://github.com/nathan-nz/alt-new-topic-button/blob/main/LICENSE"
 }
