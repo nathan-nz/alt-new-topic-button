@@ -2,3 +2,7 @@
 show_add_button:
   default: true
   type: bool
+alternative_links:
+  default: >-
+    [{"category":"general","text":"New Secure Topic","url":"/faq"}]
+  json_schema: '{ "type": "array", "format": "table", "uniqueItems": true, "items": { "type": "object", "properties": { "category": { "type": "string", "minLength": 1 }, "text": { "type": "string", "minLength": 1 }, "url": { "type": "string" } }, "additionalProperties": false } }'
