@@ -1,5 +1,5 @@
 {
-   "name" : "Alternative Topic Button",
+   "name" : "Alternative New Topic Button",
    "component": true,
    "authors": "nathan-nz",
    "about_url" : "https://github.com/nathan-nz/alt-new-topic-button/blob/main/README.md",
@@ -7,9 +7,9 @@
    "theme_version": null,
    "minimum_discourse_version": null,
    "maximum_discourse_version": null,
-  "assets": {
-    "javascripts/discourse/initializers/add-button.js.es6": "javascripts/discourse/initializers/add-button.js.es6",
-    "connectors/after-create-topic-button/add-button.hbs": "connectors/after-create-topic-button/add-button.hbs"
-  },
+   "assets": {
+      "javascripts/discourse/initializers/add-button.js.es6": "javascripts/discourse/initializers/add-button.js.es6",
+      "connectors/after-create-topic-button/add-button.hbs": "connectors/after-create-topic-button/add-button.hbs"
+   },
    "learn_more": null
 }
