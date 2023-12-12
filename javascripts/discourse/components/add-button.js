@@ -1,9 +1,12 @@
+// add-button.js
 import Component from "@glimmer/component";
 import { action } from "@ember/object";
-import { inject as service } from "@ember/service";
 
 export default class AddButtonComponent extends Component {
-  @service router;
+  constructor() {
+    super(...arguments);
+    console.log('AddButton component has been constructed');
+  }
 
   newTopicUrl = "https://ehealthforum.nz/w/ws-new-topic";
 
