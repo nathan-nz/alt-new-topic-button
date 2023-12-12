@@ -1,11 +1,5 @@
 // add-button.js
-import EmberObject from '@ember/object';
-import { action } from '@ember/object';
+import Component from "@glimmer/component";
 
-export default EmberObject.extend({
-  newTopicUrl: 'https://ehealthforum.nz/w/ws-new-topic',
-
-  goToNewTopic: action(function() {
-    window.location.href = this.newTopicUrl;
-  })
-});
+export default class AddButtonComponent extends Component {
+}
