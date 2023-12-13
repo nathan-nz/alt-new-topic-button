@@ -14,13 +14,17 @@ export default class AddButtonComponent extends Component {
     return alternativeLinks.some(link => link.category === currentCategory);
   }
 
-  get buttonData() {
-    let alternativeLinks = JSON.parse(Discourse.SiteSettings.alternative_links);
-    let currentCategory = this.router.currentRoute.params.category;
+ get buttonData() {
+   let alternativeLinks = JSON.parse(Discourse.SiteSettings.alternative_links);
+   let currentCategory = this.router.currentRoute.params.category;
 
-    // Get the data for the button in the current category
-    return alternativeLinks.find(link => link.category === currentCategory);
-  }
+   let buttonData = alternativeLinks.find(link => link.category === currentCategory);
+
+   // Log the output of the getter
+   console.log(buttonData);
+ 
+   return buttonData;
+ }
 
   @action
   goToNewTopic() {
