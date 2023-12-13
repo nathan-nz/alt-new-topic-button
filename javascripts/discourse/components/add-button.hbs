@@ -1,10 +1,8 @@
-{{#if this.showAddButton}}
-  <div class="fk-d-button-tooltip">
-    <button type="button" class="btn btn-icon-text btn-default" id="create-topic-alt" {{on "click" this.goToNewTopic}}>
-      <svg class="fa d-icon d-icon-lock svg-icon svg-string" xmlns="http://www.w3.org/2000/svg">
-        <use href="#lock"></use>
-      </svg>
-      <span class="d-button-label">{{this.buttonData.text}}</span>
-    </button>
-  </div>
-{{/if}}
+<div class="fk-d-button-tooltip">
+  <button type="button" class="btn btn-icon-text btn-default" id="create-topic-alt" {{on "click" this.goToNewTopic}}>
+    <svg class="fa d-icon d-icon-lock svg-icon svg-string" xmlns="http://www.w3.org/2000/svg">
+      <use href="#lock"></use>
+    </svg>
+    <span class="d-button-label">New Secure Topic</span>
+  </button>
+</div>
